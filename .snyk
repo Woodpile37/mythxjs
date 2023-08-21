@@ -1,0 +1,69 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - eslint > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > lodash
+    - lint-staged > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: lint-staged > lodash
+    - typedoc > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: typedoc > lodash
+    - eslint > inquirer > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > inquirer > lodash
+    - eslint > table > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: eslint > table > lodash
+    - lint-staged > yup > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: lint-staged > yup > lodash
+    - mocha > yargs-unparser > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: mocha > yargs-unparser > lodash
+    - sinon > @sinonjs/samsam > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: sinon > @sinonjs/samsam > lodash
+    - nyc > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: nyc > istanbul-lib-instrument > @babel/traverse > lodash
+    - sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: sinon > @sinonjs/formatio > @sinonjs/samsam > lodash
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          nyc > istanbul-lib-instrument > @babel/traverse > @babel/generator >
+          lodash
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          nyc > istanbul-lib-instrument > @babel/traverse >
+          @babel/helper-split-export-declaration > @babel/types > lodash
+    - nyc > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-08-21T05:26:25.856Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          nyc > istanbul-lib-instrument > @babel/traverse >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
